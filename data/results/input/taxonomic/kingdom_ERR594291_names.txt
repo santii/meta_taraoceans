@@ -1,0 +1,4 @@
+Archaea	38926
+Bacteria	297930
+Viruses	472328
+NA	19668

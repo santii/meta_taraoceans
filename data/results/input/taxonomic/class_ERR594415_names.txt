@@ -1,0 +1,108 @@
+Rubrobacteria	8
+Methanonatronarchaeia	2
+Revtraviricetes	5
+Terrimicrobia	1
+Thermoprotei	22
+Halobacteria	99
+Methanobacteria	12
+Coprothermobacteria	1
+Nanohaloarchaea	1
+Deltaproteobacteria	916
+Candidatus Thermofonsia	1
+Lentisphaeria	7
+Gloeobacteria	2
+Anaerolineae	24
+Megaviricetes	113
+Armatimonadia	2
+Alphaproteobacteria	27518
+Flavobacteriia	7317
+Actinobacteria	1111
+Balneolia	1178
+Acidimicrobiia	88
+Candidatus Methanoliparia	1
+Candidatus Methanofastidiosa	2
+Bacteroidia	259
+Chlorobia	12
+Deinococci	26
+Synergistia	11
+Betaproteobacteria	1748
+Candidatus Poseidoniia	34
+Malgrandaviricetes	1
+Chlamydiia	24
+Deferribacteres	12
+Chthonomonadetes	3
+Herviviricetes	4
+Spartobacteria	7
+Oligoflexia	76
+Holophagae	1
+Methanomicrobia	54
+Thermomicrobia	3
+Pokkesviricetes	1
+Resentoviricetes	1
+Methanopyri	1
+Thermoleophilia	11
+Planctomycetia	798
+Fibrobacteria	2
+Repensiviricetes	1
+Gammaproteobacteria	12381
+Archaeoglobi	8
+Cytophagia	413
+Bacilli	615
+Caudoviricetes	60620
+Fusobacteriia	30
+Caldilineae	3
+Nitrospinia	3
+Longimicrobia	1
+Verrucomicrobiae	276
+Thermoplasmata	367
+Saprospiria	155
+Tissierellia	23
+Mollicutes	18
+Candidatus Marinamargulisbacteria	10
+Blastocatellia	5
+Hadesarchaea	1
+Acidithiobacillia	127
+Ignavibacteria	51
+Candidatus Riflemargulisbacteria	1
+Rhodothermia	5
+Chloroflexia	7
+Candidatus Lambdaproteobacteria	1
+Hydrogenophilalia	3
+Erysipelotrichia	15
+Chitinophagia	143
+Aquificae	6
+Candidatus Muproteobacteria	2
+Insthoviricetes	1
+Sphingobacteriia	144
+Methanococci	6
+Thermococci	6
+Maveriviricetes	3
+Epsilonproteobacteria	118
+Spirochaetia	61
+Candidatus Peribacteria	2
+Nitrososphaeria	1
+Pisoniviricetes	5
+Opitutae	1461
+Calditrichae	2
+Negativicutes	77
+Nitriliruptoria	16
+Limnochordia	1
+Ktedonobacteria	8
+Coriobacteriia	28
+Dehalococcoidia	132
+Zetaproteobacteria	12
+Kiritimatiellae	5
+Thermoflexia	1
+Phycisphaerae	40
+Gemmatimonadetes	30
+Vidaverviricetes	1
+NA	68337
+Thermotogae	9
+Dictyoglomia	1
+Thermodesulfobacteria	7
+Theionarchaea	2
+Vicinamibacteria	1
+Nitrospira	58
+Clostridia	1553
+Acidobacteriia	27
+Candidatus Brocadiae	12

@@ -1,0 +1,54 @@
+GOID	TERM	ONTOLOGY
+GO:0048034	heme O biosynthetic process	BP
+GO:0006886	intracellular protein transport	BP
+GO:0006796	phosphate-containing compound metabolic process	BP
+GO:0006974	cellular response to DNA damage stimulus	BP
+GO:0016192	vesicle-mediated transport	BP
+GO:0030030	cell projection organization	BP
+GO:0001510	RNA methylation	BP
+GO:0009166	nucleotide catabolic process	BP
+GO:0006487	protein N-linked glycosylation	BP
+GO:0000820	regulation of glutamine family amino acid metabolic process	BP
+GO:0006203	dGTP catabolic process	BP
+GO:0046373	L-arabinose metabolic process	BP
+GO:0006571	tyrosine biosynthetic process	BP
+GO:0009225	nucleotide-sugar metabolic process	BP
+GO:0009255	Entner-Doudoroff pathway through 6-phosphogluconate	BP
+GO:0006007	glucose catabolic process	BP
+GO:0006032	chitin catabolic process	BP
+GO:0006747	FAD biosynthetic process	BP
+GO:0006857	oligopeptide transport	BP
+GO:0009398	FMN biosynthetic process	BP
+GO:0015846	polyamine transport	BP
+GO:0019305	dTDP-rhamnose biosynthetic process	BP
+GO:0019563	glycerol catabolic process	BP
+GO:0042853	L-alanine catabolic process	BP
+GO:0046177	D-gluconate catabolic process	BP
+GO:0052547	regulation of peptidase activity	BP
+GO:0006177	GMP biosynthetic process	BP
+GO:0015824	proline transport	BP
+GO:0019285	glycine betaine biosynthetic process from choline	BP
+GO:0030091	protein repair	BP
+GO:0032197	transposition, RNA-mediated	BP
+GO:0006465	signal peptide processing	BP
+GO:0006470	protein dephosphorylation	BP
+GO:0006637	acyl-CoA metabolic process	BP
+GO:0006655	phosphatidylglycerol biosynthetic process	BP
+GO:0006665	sphingolipid metabolic process	BP
+GO:0006788	heme oxidation	BP
+GO:0006821	chloride transport	BP
+GO:0009059	macromolecule biosynthetic process	BP
+GO:0009243	O antigen biosynthetic process	BP
+GO:0009404	toxin metabolic process	BP
+GO:0015804	neutral amino acid transport	BP
+GO:0015812	gamma-aminobutyric acid transport	BP
+GO:0030643	cellular phosphate ion homeostasis	BP
+GO:0032329	serine transport	BP
+GO:0045936	negative regulation of phosphate metabolic process	BP
+GO:0046496	nicotinamide nucleotide metabolic process	BP
+GO:0046854	phosphatidylinositol phosphate biosynthetic process	BP
+GO:0046890	regulation of lipid biosynthetic process	BP
+GO:0071586	CAAX-box protein processing	BP
+GO:0072344	rescue of stalled ribosome	BP
+GO:0097175	1,6-anhydro-N-acetyl-beta-muramic acid catabolic process	BP
+GO:0098003	viral tail assembly	BP

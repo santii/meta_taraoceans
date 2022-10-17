@@ -1,0 +1,107 @@
+Rubrobacteria	6
+Revtraviricetes	2
+Halobacteria	64
+Thermoprotei	8
+Methanobacteria	8
+Coprothermobacteria	3
+Nanohaloarchaea	1
+Deltaproteobacteria	3726
+Candidatus Thermofonsia	5
+Stelpaviricetes	2
+Lentisphaeria	1
+Gloeobacteria	1
+Megaviricetes	151
+Anaerolineae	20
+Armatimonadia	1
+Flavobacteriia	15605
+Balneolia	12908
+Alphaproteobacteria	83770
+Actinobacteria	1499
+Acidimicrobiia	126
+Candidatus Methanofastidiosa	1
+Bacteroidia	289
+Chlorobia	18
+Chitinispirillia	2
+Deinococci	35
+Synergistia	5
+Betaproteobacteria	2662
+Candidatus Poseidoniia	42
+Malgrandaviricetes	1
+Chlamydiia	12
+Ardenticatenia	2
+Deferribacteres	15
+Chthonomonadetes	1
+Fimbriimonadia	2
+Spartobacteria	2
+Oligoflexia	54
+Holophagae	4
+Tepidiformia	1
+Thermomicrobia	3
+Methanomicrobia	48
+Flasuviricetes	1
+Pokkesviricetes	2
+Thermoleophilia	16
+Planctomycetia	711
+Fibrobacteria	6
+Gammaproteobacteria	47415
+Archaeoglobi	5
+Cytophagia	1139
+Bacilli	531
+Caudoviricetes	37498
+Fusobacteriia	11
+Caldilineae	6
+Nitrospinia	4
+Longimicrobia	3
+Verrucomicrobiae	148
+Thermoplasmata	333
+Saprospiria	532
+Tissierellia	28
+Candidatus Marinamargulisbacteria	11
+Mollicutes	15
+Blastocatellia	4
+Rhodothermia	35
+Ignavibacteria	61
+Acidithiobacillia	82
+Chloroflexia	9
+Candidatus Lambdaproteobacteria	1
+Methylacidiphilae	2
+Thermoanaerobaculia	1
+Hydrogenophilalia	9
+Candidatus Mcinerneyibacteria	1
+Chitinophagia	148
+Erysipelotrichia	9
+Aquificae	9
+Candidatus Muproteobacteria	1
+Insthoviricetes	1
+Sphingobacteriia	217
+Thermococci	9
+Methanococci	3
+Maveriviricetes	3
+Epsilonproteobacteria	118
+Candidatus Peribacteria	6
+Spirochaetia	56
+Nitrososphaeria	3
+Chrysiogenetes	2
+Pisoniviricetes	1
+Opitutae	910
+Calditrichae	4
+Negativicutes	43
+Nitriliruptoria	30
+Ktedonobacteria	4
+Coriobacteriia	16
+Dehalococcoidia	84
+Candidatus Termititenacia	5
+Zetaproteobacteria	8
+Kiritimatiellae	2
+Phycisphaerae	18
+Gemmatimonadetes	37
+NA	48380
+Thermotogae	14
+Dictyoglomia	1
+Thermodesulfobacteria	5
+Vicinamibacteria	1
+Nitrospira	39
+Clostridia	1204
+Acidobacteriia	42
+Candidatus Brocadiae	16
+Candidatus Nanosyncoccalia	1

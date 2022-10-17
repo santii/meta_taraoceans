@@ -1,0 +1,149 @@
+Rubrobacteria	5644
+Methanonatronarchaeia	143
+Terrimicrobia	159
+Revtraviricetes	244
+Thermoprotei	5808
+Methanobacteria	3526
+Halobacteria	18522
+Coprothermobacteria	167
+Nanohaloarchaea	118
+Deltaproteobacteria	2450527
+Candidatus Thermofonsia	2047
+Duplopiviricetes	7
+Lentisphaeria	3761
+Stelpaviricetes	32
+Gloeobacteria	626
+Anaerolineae	20441
+Megaviricetes	16140
+Armatimonadia	1448
+Actinobacteria	805272
+Alphaproteobacteria	6961820
+Flavobacteriia	580063
+Acidimicrobiia	125664
+Balneolia	12750
+Candidatus Fermentibacteria (class)	36
+Candidatus Methanoliparia	256
+Candidatus Methanofastidiosa	389
+Bacteroidia	68337
+Chlorobia	12584
+Chitinispirillia	648
+Chrymotiviricetes	2
+Conexivisphaeria	59
+Howeltoviricetes	5
+Deinococci	11787
+Synergistia	3881
+Candidatus Nanoperiomorbia	24
+Betaproteobacteria	314330
+Candidatus Poseidoniia	297561
+Papovaviricetes	454
+Malgrandaviricetes	180
+Chlamydiia	6228
+Ardenticatenia	2006
+Deferribacteres	3978
+Fimbriimonadia	356
+Chthonomonadetes	606
+Herviviricetes	217
+Spartobacteria	3093
+Monjiviricetes	39
+Oligoflexia	20107
+Elusimicrobia	277
+Holophagae	1787
+Tepidiformia	494
+Methanomicrobia	14921
+Thermomicrobia	4838
+Pokkesviricetes	189
+Flasuviricetes	55
+Methanopyri	68
+Resentoviricetes	17
+Thermoleophilia	6621
+Magsaviricetes	2
+Planctomycetia	225386
+Fibrobacteria	2180
+Repensiviricetes	21
+Gammaproteobacteria	3945130
+Archaeoglobi	1388
+Bacilli	187534
+Cytophagia	112882
+Nitrospinia	223881
+Caudoviricetes	78779
+Caldilineae	5808
+Fusobacteriia	6606
+Longimicrobia	1400
+Chitinivibrionia	315
+Verrucomicrobiae	196003
+Thermoplasmata	7527
+Mollicutes	6866
+Candidatus Marinamargulisbacteria	6753
+Tissierellia	8623
+Blastocatellia	4563
+Saprospiria	16764
+Hadesarchaea	514
+Rhodothermia	4721
+Acidithiobacillia	82329
+Ignavibacteria	22386
+Candidatus Riflemargulisbacteria	339
+Tolucaviricetes	9
+Chloroflexia	6779
+Candidatus Lambdaproteobacteria	1341
+Thermoanaerobaculia	1136
+Methylacidiphilae	652
+Hydrogenophilalia	2459
+Candidatus Mcinerneyibacteria	258
+Ellioviricetes	35
+Chitinophagia	32726
+Erysipelotrichia	4013
+Candidatus Muproteobacteria	3745
+Aquificae	7081
+Insthoviricetes	9
+Sphingobacteriia	44308
+Thermococci	2307
+Methanococci	1361
+Candidatus Ozemobacteria	267
+Maveriviricetes	24
+Epsilonproteobacteria	49156
+Candidatus Peribacteria	1028
+Spirochaetia	33784
+Nitrososphaeria	2128
+Abditibacteria	250
+Chrysiogenetes	1455
+Alsuviricetes	50
+Quintoviricetes	16
+Pisoniviricetes	114
+Opitutae	61698
+Calditrichae	9006
+Candidatus Saccharimonia	2
+Candidatus Methanomethylia	51
+Negativicutes	12624
+Nitriliruptoria	5651
+Limnochordia	482
+Ktedonobacteria	5532
+Coriobacteriia	6117
+Dehalococcoidia	35627
+Faserviricetes	10
+Candidatus Cryosericia	292
+Candidatus Termititenacia	327
+Endomicrobia	400
+Candidatus Sumerlaeia	96
+Amabiliviricetes	2
+Kiritimatiellae	3242
+Zetaproteobacteria	6647
+Thermoflexia	519
+Tectiliviricetes	47
+Phycisphaerae	28729
+Gemmatimonadetes	71056
+Vidaverviricetes	2
+NA	11556697
+Thermotogae	7413
+Dictyoglomia	839
+Allassoviricetes	9
+Vicinamibacteria	2868
+Thermodesulfobacteria	3703
+Theionarchaea	387
+Candidatus Babeliae	84
+Nitrospira	21986
+Arfiviricetes	15
+Clostridia	143737
+Acidobacteriia	22664
+Candidatus Brocadiae	8775
+Candidatus Nanosyncoccalia	38
+Caldisericia	241

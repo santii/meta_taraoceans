@@ -1,0 +1,179 @@
+Euryarchaeota	7916
+candidate division Zixibacteria	71
+candidate division LCP-89	3
+Bacteroidetes	58541
+Candidatus Aminicenantes	17
+Nucleocytoviricota	1948
+Actinobacteria	9956
+Balneolaeota	656
+Candidatus Hydrogenedentes	17
+Lentisphaerae	82
+Candidatus Aerophobetes	11
+Planctomycetes	3730
+Acidobacteria	459
+Fibrobacteres	23
+Kiritimatiellaeota	33
+candidate division NC10	17
+Cyanobacteria	2949
+Deferribacteres	18
+Candidatus Cloacimonetes	50
+Elusimicrobia	113
+Negarnaviricota	2
+Preplasmiviricota	8
+Ignavibacteriae	141
+Chlorobi	73
+Tenericutes	118
+Abditibacteriota	3
+Spirochaetes	725
+candidate division WOR-3	1
+Nitrospirae	185
+Uroviricota	186405
+Artverviricota	9
+Candidatus Hydrothermae	1
+Verrucomicrobia	5968
+Nitrospinae	18
+candidate division WWE3	59
+Duplornaviricota	2
+Candidatus Staskawiczbacteria	13
+Candidatus Wildermuthbacteria	15
+Candidatus Giovannonibacteria	27
+Candidatus Absconditabacteria	4
+Candidatus Handelsmanbacteria	2
+Candidatus Gottesmanbacteria	17
+Candidatus Jorgensenbacteria	19
+Candidatus Magasanikbacteria	55
+Candidatus Zambryskibacteria	16
+Candidatus Peregrinibacteria	49
+Candidatus Firestonebacteria	2
+Coprothermobacterota	1
+Candidatus Blackburnbacteria	3
+Firmicutes	5325
+Candidatus Margulisbacteria	52
+Candidatus Fermentibacteria	11
+Synergistetes	71
+Candidatus Yanofskybacteria	49
+Candidatus Saccharibacteria	48
+Candidatus Buchananbacteria	18
+Candidatus Blackallbacteria	4
+Aquificae	42
+Candidatus Gribaldobacteria	8
+Candidatus Campbellbacteria	15
+Candidatus Schekmanbacteria	9
+Candidatus Harrisonbacteria	14
+Candidatus Beckwithbacteria	9
+Candidatus Desantisbacteria	5
+Candidatus Chisholmbacteria	5
+Candidatus Andersenbacteria	1
+Candidatus Curtissbacteria	10
+Candidatus Kerfeldbacteria	17
+Candidatus Roizmanbacteria	21
+Candidatus Latescibacteria	24
+Candidatus Nealsonbacteria	21
+Candidatus Melainabacteria	44
+Candidatus Colwellbacteria	11
+Candidatus Shapirobacteria	20
+Candidatus Portnoybacteria	8
+Candidatus Collierbacteria	7
+Candidatus Gracilibacteria	10
+Candidatus Fischerbacteria	2
+Candidatus Komeilibacteria	11
+Cressdnaviricota	2
+Candidatus Edwardsbacteria	1
+Candidatus Brennerbacteria	1
+Candidatus Abawacabacteria	1
+Candidatus Jacksonbacteria	1
+Candidatus Liptonbacteria	10
+Candidatus Nomurabacteria	64
+Candidatus Kaiserbacteria	94
+Candidatus Falkowbacteria	34
+Candidatus Doudnabacteria	24
+Candidatus Abyssubacteria	4
+Candidatus Daviesbacteria	20
+Candidatus Niyogibacteria	8
+Candidatus Verstraetearchaeota	2
+Candidatus Lindowbacteria	5
+Candidatus Coatesbacteria	5
+Candidatus Berkelbacteria	15
+Candidatus Spechtbacteria	8
+Candidatus Kuenenbacteria	5
+Candidatus Taylorbacteria	11
+Candidatus Yonathbacteria	7
+Candidatus Delongbacteria	1
+Deinococcus-Thermus	549
+Fusobacteria	57
+Candidatus Woesebacteria	129
+Candidatus Moranbacteria	32
+Candidatus Parcubacteria	89
+Candidatus Wolfebacteria	54
+Candidatus Glassbacteria	2
+Candidatus Vogelbacteria	13
+Candidatus Eisenbacteria	10
+Candidatus Woykebacteria	5
+Candidatus Adlerbacteria	10
+Candidatus Lloydbacteria	9
+Candidatus Riflebacteria	6
+Candidatus Aureabacteria	4
+Candidatus Wirthbacteria	1
+Candidatus Terrybacteria	5
+Candidatus Cryosericota	2
+Cossaviricota	2
+Chloroflexi	1189
+Candidatus Heimdallarchaeota	151
+Candidatus Omnitrophica	101
+Candidatus Ryanbacteria	8
+Candidatus Rokubacteria	63
+Candidatus Amesbacteria	9
+Candidatus Eremiobacteraeota	4
+Candidatus Dadabacteria	30
+Peploviricota	7
+Candidatus Levybacteria	26
+Candidatus Pacebacteria	18
+Candidatus Azambacteria	10
+Candidatus Kapabacteria	8
+Candidatus Atribacteria	13
+Candidatus Muirbacteria	2
+Candidatus Sungbacteria	6
+Candidatus Poribacteria	15
+Candidatus Tagabacteria	1
+Candidatus Goldbacteria	1
+Candidatus Geothermarchaeota	1
+Candidatus Uhrbacteria	49
+Candidatus Dormibacteraeota	10
+Chrysiogenetes	8
+Candidatus Aenigmarchaeota	14
+Candidatus Bathyarchaeota	3262
+Candidatus Woesearchaeota	47
+Kitrinoviricota	7
+Candidatus Thorarchaeota	311
+Candidatus Lokiarchaeota	34
+Candidatus Micrarchaeota	19
+Candidatus Altiarchaeota	17
+Candidatus Marsarchaeota	3
+Candidatus Parvarchaeota	2
+Candidatus Odinarchaeota	1
+Crenarchaeota	105
+Candidatus Korarchaeota	25
+candidate division CPR3	2
+candidate division CPR2	4
+Candidatus Sumerlaeota	4
+Candidatus Bipolaricaulota	2
+candidate division CPR1	2
+Rhodothermaeota	143
+Candidatus Diapherotrites	4
+Caldiserica	8
+Candidatus Microgenomates	9
+Candidatus Kryptonia	5
+Proteobacteria	401203
+Thaumarchaeota	264
+Armatimonadetes	48
+Phixviricota	6
+Gemmatimonadetes	159
+Calditrichaeota	57
+NA	118173
+Thermotogae	42
+Thermodesulfobacteria	24
+Nanoarchaeota	5
+Chlamydiae	103
+Candidatus Marinimicrobia	699
+Candidatus Tectomicrobia	8
+Pisuviricota	7
