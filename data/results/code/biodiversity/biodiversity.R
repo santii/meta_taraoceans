@@ -669,7 +669,7 @@ for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("complete_",index,"_",taxon))
     vari_name <- paste0("stac.dvst.abdc_",index,"_",taxon)
-    assign(vari_name, ggplot(data_name, aes(x = abund, y = diversity_index)) +
+    assign(vari_name, ggplot(data_name, aes(x = log10(abund), y = diversity_index)) +
        # geom_jitter(aes(color = factor(depths, levels = c("SRF","DCM","MES")), 
        #                 shape = shapes), position=position_jitter(width=.1), size = 3.5) + # COM FORMAS
        geom_jitter(aes(color = factor(depths, levels = c("SRF","DCM","MES"))),
@@ -680,9 +680,9 @@ for (taxon in taxons){
                           values = c("#303F9F","#D32F2F","#FFA000")) +
        scale_shape_manual(labels = c("064","065","068","076","078","098","111","112"),
                           values = c(0,1,2,3,4,5,7,9)) +
-       scale_x_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
+       # scale_x_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        # scale_y_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
-       # scale_x_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
+       scale_x_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        scale_y_continuous(limits = c(0, 1)) +
        labs(color = "Layers", shape = "Shapes", y = "Diversity", x = "log10(Abundance)") +
        theme(axis.text.x = element_text(angle = 90,hjust = 1,face = "italic"))
@@ -703,7 +703,7 @@ stac.dvst.abdc_shannon.norm_species + theme_light()
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.abdc_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/stac.dvst.abdc/stac.dvst.abdc_",index,"_",taxon,".pdf")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/stac.dvst.abdc/stac.dvst.abdc_",index,"_",taxon,".pdf")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='pdf')
   }
@@ -714,7 +714,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.abdc_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/stac.dvst.abdc/stac.dvst.abdc_",index,"_",taxon,".png")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/stac.dvst.abdc/stac.dvst.abdc_",index,"_",taxon,".png")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='png')
   }
@@ -725,7 +725,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.abdc_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/stac.dvst.abdc/stac.dvst.abdc_",index,"_",taxon,".svg")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/stac.dvst.abdc/stac.dvst.abdc_",index,"_",taxon,".svg")
     dev.copy(svg, vari_name, width = 7.5, height = 5)
     dev.off()
   }
@@ -773,7 +773,7 @@ stac.dvst.stt_shannon.norm_species + theme_light()
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.stt_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/stac.dvst.stt/stac.dvst.stt_",index,"_",taxon,".pdf")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/stac.dvst.stt/stac.dvst.stt_",index,"_",taxon,".pdf")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='pdf')
   }
@@ -784,7 +784,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.stt_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/stac.dvst.stt/stac.dvst.stt_",index,"_",taxon,".png")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/stac.dvst.stt/stac.dvst.stt_",index,"_",taxon,".png")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='png')
   }
@@ -795,7 +795,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.stt_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/stac.dvst.stt/stac.dvst.stt_",index,"_",taxon,".svg")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/stac.dvst.stt/stac.dvst.stt_",index,"_",taxon,".svg")
     dev.copy(svg,vari_name,width = 7,height = 5)
     dev.off()
   }
@@ -809,7 +809,7 @@ for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("complete_",index,"_",taxon))
     vari_name <- paste0("stac.abdc.stt","_",index,"_",taxon)
-    assign(vari_name, ggplot(data_name, aes(x = stations, y = abund)) +
+    assign(vari_name, ggplot(data_name, aes(x = stations, y = log10(abund))) +
        # geom_jitter(aes(color = factor(depths, levels = c("SRF","DCM","MES")), 
        #                 shape = shapes), position=position_jitter(width=.1), size = 3.5) + # COM FORMAS
        geom_jitter(aes(color = factor(depths, levels = c("SRF","DCM","MES"))),
@@ -821,9 +821,9 @@ for (taxon in taxons){
        scale_shape_manual(labels = c("064","065","068","076","078","098","111","112"),
                           values = c(0,1,2,3,4,5,7,9)) +
        # scale_x_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
-       scale_y_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
+       # scale_y_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        # scale_x_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
-       # scale_y_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
+       scale_y_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        labs(color = "Layers", shape = "Shapes", y = "log10(Abundance)", x = "Stations") +
        theme(axis.text.x = element_text(angle = 90,hjust = 1,face = "italic"))
     )
@@ -843,7 +843,7 @@ stac.abdc.stt_shannon.norm_species + theme_light()
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.abdc.stt_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/stac.abdc.stt/stac.abdc.stt_",index,"_",taxon,".pdf")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/stac.abdc.stt/stac.abdc.stt_",index,"_",taxon,".pdf")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='pdf')
   }
@@ -854,7 +854,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.abdc.stt_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/stac.abdc.stt/stac.abdc.stt_",index,"_",taxon,".png")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/stac.abdc.stt/stac.abdc.stt_",index,"_",taxon,".png")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='png')
   }
@@ -865,7 +865,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.abdc.stt_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/stac.abdc.stt/stac.abdc.stt_",index,"_",taxon,".svg")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/stac.abdc.stt/stac.abdc.stt_",index,"_",taxon,".svg")
     dev.copy(svg,vari_name,width = 7,height = 5)
     dev.off()
   }
@@ -895,6 +895,9 @@ for (taxon in taxons){
        # scale_x_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        scale_y_continuous(limits = c(0, 1)) +
        # stat_compare_means(method = "wilcox.test", comparisons = comp_depths) +
+       geom_signif(annotations = 'ns', y_position = 0.85, xmin = 1, xmax = 2, size = 0.3, textsize = 4.5, color = "black") +
+       geom_signif(annotations = '****', y_position = 0.90, xmin = 2, xmax = 3, size = 0.3, textsize = 4.5, color = "black")+
+       geom_signif(annotations = '****', y_position = 0.95, xmin = 1, xmax = 3, size = 0.3, textsize = 4.5, color = "black")+
        labs(y = "Diversity", x = "Layers") +
      theme(axis.text.x = element_text(angle = 90,hjust = 1,face = "italic"))
     )
@@ -918,7 +921,7 @@ box.dvst.depths_shannon.norm_species + theme_light()
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("box.dvst.depths_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/box.dvst.depths/box.dvst.depths_",index,"_",taxon,".pdf")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/box.dvst.depths/box.dvst.depths_",index,"_",taxon,".pdf")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='pdf')
   }
@@ -929,7 +932,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("box.dvst.depths_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/box.dvst.depths/box.dvst.depths_",index,"_",taxon,".png")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/box.dvst.depths/box.dvst.depths_",index,"_",taxon,".png")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='png')
   }
@@ -940,7 +943,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("box.dvst.depths_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/box.dvst.depths/box.dvst.depths_",index,"_",taxon,".svg")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/box.dvst.depths/box.dvst.depths_",index,"_",taxon,".svg")
     dev.copy(svg,vari_name,width = 7,height = 5)
     dev.off()
   }
@@ -955,7 +958,7 @@ for (taxon in taxons){
     data_name <- get(paste0("complete_",index,"_",taxon))
     vari_name <- paste0("box.abdc.depths","_",index,"_",taxon)
     Layers <- factor(depths, levels = c("SRF","DCM","MES"), ordered = TRUE)
-    assign(vari_name, ggplot(data_name, aes(x = Layers, y = abund, color = Layers)) +
+    assign(vari_name, ggplot(data_name, aes(x = Layers, y = log10(abund), color = Layers)) +
        geom_boxplot(aes(fill = Layers),outlier.shape=NA) +
        # geom_jitter(aes(shape=shapes), position=position_jitter(width=.1, height=0), size = 2.5) + # COM FORMAS
        geom_jitter(position=position_jitter(width=.1, height=0), size = 2) + # SEM FORMAS
@@ -966,10 +969,13 @@ for (taxon in taxons){
        scale_shape_manual(labels = c("064","065","068","076","078","098","111","112"),
                           values = c(0,1,2,3,4,5,7,9)) +
        # scale_x_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
-       scale_y_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
+       # scale_y_log10(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        # scale_x_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
-       # scale_y_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
+       scale_y_continuous(labels = comma_format(big.mark = ".", decimal.mark = ",")) +
        # stat_compare_means(method = "wilcox.test", comparisons = comp_depths) +
+       geom_signif(annotations = 'ns', y_position = 8.00, xmin = 1, xmax = 2, size = 0.3, textsize = 4.5, color = "black") +
+       geom_signif(annotations = 'ns', y_position = 8.15, xmin = 2, xmax = 3, size = 0.3, textsize = 4.5, color = "black")+
+       geom_signif(annotations = 'ns', y_position = 8.30, xmin = 1, xmax = 3, size = 0.3, textsize = 4.5, color = "black")+
        labs(y = "log10(Abundance)", x = "Layers") +
        theme(axis.text.x = element_text(angle = 90,hjust = 1,face = "italic"))
     )
@@ -993,7 +999,7 @@ box.abdc.depths_shannon.norm_species + theme_light()
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("box.abdc.depths_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/box.abdc.depths/box.abdc.depths_",index,"_",taxon,".pdf")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/",index,"/box.abdc.depths/box.abdc.depths_",index,"_",taxon,".pdf")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='pdf')
   }
@@ -1004,7 +1010,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("box.abdc.depths_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/box.abdc.depths/box.abdc.depths_",index,"_",taxon,".png")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/",index,"/box.abdc.depths/box.abdc.depths_",index,"_",taxon,".png")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='png')
   }
@@ -1015,7 +1021,7 @@ for (taxon in taxons){
 for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("box.abdc.depths_",index,"_",taxon))
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/box.abdc.depths/box.abdc.depths_",index,"_",taxon,".svg")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/",index,"/box.abdc.depths/box.abdc.depths_",index,"_",taxon,".svg")
     dev.copy(svg,vari_name,width = 7,height = 5)
     dev.off()
   }
@@ -1156,7 +1162,7 @@ for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.abdc.mean_",taxon))
     # vari_name <- paste0("plots/pdf/",index,"/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".pdf")
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/pdf/shannon.norm/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".pdf")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/shannon.norm/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".pdf")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='pdf')
   }
@@ -1168,7 +1174,7 @@ for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.abdc.mean_",taxon))
     # vari_name <- paste0("plots/png/",index,"/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".png")
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/png/shannon.norm/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".png")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/shannon.norm/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".png")
     ggsave(filename = vari_name, data_name + theme_light(),
            width = 15, height = 10, dpi = 500, units = "cm", device='png')
   }
@@ -1180,7 +1186,7 @@ for (taxon in taxons){
   for(index in indexes){
     data_name <- get(paste0("stac.dvst.abdc.mean_",taxon))
     # vari_name <- paste0("plots/svg/",index,"/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".svg")
-    vari_name <- paste0("~/meta_taraocean/data/results/output/biodiversity/plots/svg/shannon.norm/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".svg")
+    vari_name <- paste0("~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/shannon.norm/stac.dvst.abdc.mean/stac.dvst.abdc.mean_",taxon,".svg")
     dev.copy(svg,vari_name,width = 7,height = 5)
     dev.off()
   }
@@ -1205,23 +1211,23 @@ mounting_2 <- box.dvst.depths_shannon.norm_species + theme_light() +
 mounting_2
 
 ### Salvando imagens (PDF)
-ggsave(filename = "~/meta_taraocean/data/results/output/biodiversity/plots/pdf/mounting/mounting_1.pdf", mounting_1,
+ggsave(filename = "~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/mounting/mounting_1.pdf", mounting_1,
        width = 30, height = 20, dpi = 500, units = "cm", device='pdf')
-ggsave(filename = "~/meta_taraocean/data/results/output/biodiversity/plots/pdf/mounting/mounting_2.pdf", mounting_2,
+ggsave(filename = "~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/mounting/mounting_2.pdf", mounting_2,
        width = 30, height = 15, dpi = 500, units = "cm", device='pdf')
 
 ### Salvando imagens (PNG)
-ggsave(filename = "~/meta_taraocean/data/results/output/biodiversity/plots/png/mounting/mounting_1.png", mounting_1,
+ggsave(filename = "~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/mounting/mounting_1.png", mounting_1,
        width = 30, height = 20, dpi = 500, units = "cm", device='png')
-ggsave(filename = "~/meta_taraocean/data/results/output/biodiversity/plots/png/mounting/mounting_2.png", mounting_2,
+ggsave(filename = "~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/mounting/mounting_2.png", mounting_2,
        width = 30, height = 15, dpi = 500, units = "cm", device='png')
 
 ### Salvando imagens (SVG)
 mounting_1
-dev.copy(svg,"~/meta_taraocean/data/results/output/biodiversity/plots/svg/mounting/mounting_1.svg", width = 8, height = 6)
+dev.copy(svg,"~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/mounting/mounting_1.svg", width = 8, height = 6)
 dev.off()
 mounting_2
-dev.copy(svg,"~/meta_taraocean/data/results/output/biodiversity/plots/svg/mounting/mounting_2.svg", width = 8, height = 4)
+dev.copy(svg,"~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/mounting/mounting_2.svg", width = 8, height = 6)
 dev.off()
 
 ##### Média Taxonômica
@@ -1400,25 +1406,30 @@ data_prop_kingdom %>%
 
 prop_domain <- 
   data_prop_kingdom_plot %>%
-  ggplot(aes(x = depth, y = prop)) +
-  geom_boxplot() +
+  ggplot(aes(x = depth, y = prop, color = depth)) +
+  geom_boxplot(aes(fill = depth)) +
+  scale_color_manual(labels = c("SRF", "DCM", "MES"),
+                     values = c("#303F9F","#D32F2F","#FFA000")) +
+  scale_fill_manual(labels = c("SRF", "DCM", "MES"),
+                    values = c("#40C4FF","#F06292","#FFD600")) +
   facet_wrap(~domain) +
-  labs(y = "Proportion", x = "Layers") +
-  stat_compare_means(method = "wilcox.test", 
-                     comparisons = list(c("SRF", "DCM"), c("SRF", "MES"), c("DCM", "MES")))
+  geom_signif(annotations = '', y_position = 1.05, xmin = 1, xmax = 2, size = 0.3, textsize = 4.5, color = "black") +
+  geom_signif(annotations = '', y_position = 1.10, xmin = 2, xmax = 3, size = 0.3, textsize = 4.5, color = "black")+
+  geom_signif(annotations = '', y_position = 1.15, xmin = 1, xmax = 3, size = 0.3, textsize = 4.5, color = "black")+
+  labs(y = "Proportion", x = "Layers")
+  # stat_compare_means(method = "wilcox.test", 
+  #                    comparisons = list(c("SRF", "DCM"), c("SRF", "MES"), c("DCM", "MES")))
 prop_domain
 
-
-
 ### Salvando imagens (PDF)
-ggsave(filename = "~/meta_taraocean/data/results/output/biodiversity/plots/pdf/mounting/prop_domain.pdf", prop_domain,
-       width = 10, height = 15, dpi = 500, units = "cm", device='pdf')
+ggsave(filename = "~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/pdf/mounting/prop_domain.pdf", prop_domain,
+       width = 15, height = 20, dpi = 500, units = "cm", device='pdf')
 
 ### Salvando imagens (PNG)
-ggsave(filename = "~/meta_taraocean/data/results/output/biodiversity/plots/png/mounting/prop_domain.png", prop_domain,
-       width = 10, height = 15, dpi = 500, units = "cm", device='png')
+ggsave(filename = "~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/png/mounting/prop_domain.png", prop_domain,
+       width = 15, height = 20, dpi = 500, units = "cm", device='png')
 
 ### Salvando imagens (SVG)
 prop_domain
-dev.copy(svg,"~/meta_taraocean/data/results/output/biodiversity/plots/svg/mounting/prop_domain.svg", width = 5, height = 7)
+dev.copy(svg,"~/gitlab/meta_taraocean/data/results/output/biodiversity/plots/svg/mounting/prop_domain.svg", width = 5, height = 8)
 dev.off()
