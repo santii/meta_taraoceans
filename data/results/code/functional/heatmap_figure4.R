@@ -2,6 +2,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(pheatmap)
+library(openxlsx)
 
 load(".RData")
 
@@ -22,6 +23,8 @@ terms_wide <- all_terms %>%
   log() %>%
   t()
 
+write.xlsx(data.frame(terms_wide), "../../output/functional/goterms/Figure4_matrix.xlsx", rowNames = TRUE)
+
 terms_pheatmap <- pheatmap(
   terms_wide,
   border_color = "white",
@@ -34,4 +37,4 @@ terms_pheatmap <- pheatmap(
 terms_pheatmap
 
 ggsave(terms_pheatmap, filename = "../../output/functional/plots/pdf/tara_terms_pheatmap.pdf", height = 8)
-ggsave(terms_pheatmap, filename = "../../output/functional/plots/pdf/tara_terms_pheatmap.png", height = 8)
+ggsave(terms_pheatmap, filename = "../../output/functional/plots/png/tara_terms_pheatmap.png", height = 8)
