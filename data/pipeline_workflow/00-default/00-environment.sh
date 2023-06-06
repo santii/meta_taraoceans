@@ -26,8 +26,8 @@ chmod u+x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
 
 ### protocolMeta
-conda install anaconda-client
-conda env create arthurvinx/protocolMeta
+#conda install anaconda-client
+#conda env create arthurvinx/protocolMeta
 
 
 ### Configuring medusaPipeline
