@@ -3,7 +3,7 @@
 ### Declaring variables
 
 local_address="/~/master_degree/taraocean/"
-protocol="/~/bcfsantiago/master_degree/taraocean/pipeProtocol/Protocol/"
+protocol="/~/master_degree/taraocean/pipeProtocol/Protocol/"
 db_kaiju="/~/master_degree/dbs/kaiju"
 
 data="/~/master_degree/taraocean/pipeProtocol/Protocol/data"
