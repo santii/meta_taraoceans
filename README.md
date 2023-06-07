@@ -4,6 +4,20 @@ This repository is the result of a master's project in Bioinformatics, focusing 
 
 To reproduce the results, it is important to correctly follow the steps present in this README or even those present in each directory of this repository.
 
+## Repository structure
+
+- doc: Tables used in the project.
+  - tables/original: Tables retrieved directly from the Tara Oceans website.
+  - tables/used: Tables containing only information about the samples selected for the present work.
+- data: All material developed in this project.
+  - pipeline_workflow: MEDUSA pipeline configuration and execution files.
+  - results: Code and results obtained with the output of the MEDUSA pipeline.
+    Each subfolder of these repositories has as respective subfolders "biodiversity", "functional" and "taxonomic",
+    with their due explanations present in the README.md files present in each one of them.
+    - results/code: All the code created to build tables, graphs and figures for interpreting the results.
+    - results/input: Input files for analyzing the results. These files are the MEDUSA pipeline output files.
+    - results/output: Output files with the results obtained in the analyses, such as tables, graphs and figures.
+
 ## Preparation of the working environment
 
 Here, we used the MEDUSA, a tool for metagenomics analysis. The code used in this project followed the step-by-step guide described on the [Supplementary Material](https://www.frontiersin.org/articles/10.3389/fgene.2022.814437/full#supplementary-material) of the MEDUSA paper.
