@@ -6,6 +6,8 @@ To reproduce the results, it is important to correctly follow the steps present 
 
 ## Preparation of the working environment
 
+Here, we used the MEDUSA, a tool for metagenomics analysis. The code used in this project followed the step-by-step guide described on the [Supplementary Material](https://www.frontiersin.org/articles/10.3389/fgene.2022.814437/full#supplementary-material) of the MEDUSA paper.
+
 1. Go to data/pipeline_workflow/00-default
 
 ```
